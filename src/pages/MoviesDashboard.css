@@ -1,0 +1,74 @@
+
+.movies-dashboard {
+    background: url("https://i.ibb.co/5kw6Rcw/pexels-luckysam-137219.jpg") no-repeat center center/cover;
+    height: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.movies-dashboard .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+
+.container {
+    z-index: 2;
+    position: relative;
+}
+
+
+.search-input {
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: #888;
+}
+
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+.movie-details-container {
+    background: url('https://i.ibb.co/5kw6Rcw/pexels-luckysam-137219.jpg') center center/cover no-repeat;
+    height: 100vh;  
+    position: relative;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+
+
+.card-body {
+    position: relative;
+    z-index: 2;
+}
